@@ -32,8 +32,6 @@ K-means cell clustering.
 ```text
 .
 |-- assets/                  # Framework figure files
-|   |-- framework.png
-|   `-- framework.pdf
 |-- scCCGR/                  # Dual-omics RNA + ATAC workflow
 |-- scCCGR_Tri/              # Tri-omics RNA + ATAC + ADT workflow
 |-- .gitignore               # Excluded data and cache directories
