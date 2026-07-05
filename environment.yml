@@ -1,0 +1,26 @@
+name: scccgr
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.18
+  - pip=25.1
+  - ipykernel=6.29.5
+  - hnswlib=0.8.0
+  - leidenalg=0.10.2
+  - python-igraph=0.11.9
+  - pip:
+      - anndata==0.8.0
+      - h5py==3.13.0
+      - matplotlib==3.9.4
+      - mudata==0.2.4
+      - muon==0.1.6
+      - numba==0.60.0
+      - numpy==1.26.4
+      - pandas==2.3.3
+      - scanpy==1.10.3
+      - scikit-learn==1.3.2
+      - scipy==1.11.3
+      - seaborn==0.13.2
+      - torch==2.7.0
+      - tqdm==4.61.2
