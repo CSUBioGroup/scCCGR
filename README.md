@@ -31,11 +31,14 @@ K-means cell clustering.
 
 ```text
 .
+|-- assets/                  # Framework figure files
+|   |-- framework.png
+|   `-- framework.pdf
 |-- scCCGR/                  # Dual-omics RNA + ATAC workflow
 |-- scCCGR_Tri/              # Tri-omics RNA + ATAC + ADT workflow
-|-- framework.png            # README-ready framework figure
-|-- framework.pdf            # Vector version of the method overview
+|-- .gitignore               # Excluded data and cache directories
 |-- environment.yml          # Conda environment definition
+|-- LICENSE                  # MIT License
 `-- requirements.txt         # Key Python package versions
 ```
 
@@ -105,4 +108,3 @@ python train_contrast.py --dataset PBMC_TEA
 The scripts currently select CUDA devices in source (`cuda:1`, `cuda:2`, or
 `cuda:3`). Adjust these values to match the available GPU before running.
 Generated embeddings are written to `lowdimention/`.
-
