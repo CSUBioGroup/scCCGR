@@ -9,9 +9,9 @@ and tri-omics integration (`scCCGR_Tri`, RNA + ATAC + ADT).
 
 ## Framework
 
-![Overview of the scCCGR framework](framework.png)
+![Overview of the scCCGR framework](assets/framework.png)
 
-[View the vector PDF](framework.pdf)
+[View the vector PDF](assets/framework.pdf)
 
 scCCGR is trained in two stages:
 
