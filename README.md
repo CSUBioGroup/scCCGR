@@ -78,7 +78,7 @@ data/<dataset>/
 |   |-- ATAC/{barcodes.tsv,genes.tsv,matrix.mtx}
 |   `-- ADT/{barcodes.tsv,genes.tsv,matrix.mtx}  # tri-omics only
 ```
-To get dataset: https://drive.google.com/file/d/1WV88Gg3zt_IO4jY9vVqpIQlU7q_ZCgi2/view?usp=drive_link
+To get dataset: https://drive.google.com/file/d/1bD3sYYtevFbkgiVRdT5GjjrEuOb_LsIf/view?usp=sharing
 
 ## Running
 
